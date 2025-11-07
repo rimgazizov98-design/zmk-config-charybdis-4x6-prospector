@@ -190,9 +190,9 @@
             display-name = "BASE";
             bindings = <
 &kp ESC         &kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)          &kp LS(N4)     &kp LS(N5)      &kp LS(N6)  &kp LS(N7)    &kp LS(N8)           &kp LS(N9)  &kp LS(N0)  &kp BACKSPACE
-&kp GRAVE       &kp Q             &kp W       &kp E               &kp R          &kp T           &kp Y       &kp U         &kp I                &kp O       &kp P       &kp LEFT_BRACKET
-&kp TAB         &kp A             &kp S       &u_mt LEFT_SHIFT D  &kp F          &kp G           &kp H       &kp J         &u_mt RIGHT_SHIFT K  &kp L       &kp SEMI    &kp APOS
-&kp LEFT_SHIFT  &kp Z             &kp X       &kp C               &kp V          &kp B           &kp N       &kp M         &kp COMMA            &kp DOT     &kp FSLH    &u_mt RIGHT_SHIFT RIGHT_BRACKET
+&kp GRAVE       &kp SQT           &kp COMMA   &kp PERIOD          &kp P          &kp Y           &kp F       &kp G         &kp C                &kp R       &kp SLASH   &kp EQUAL
+&kp TAB         &kp A             &kp O       &u_mt LEFT_SHIFT E  &kp U          &kp I           &kp H       &kp T         &u_mt RIGHT_SHIFT N  &kp S       &kp MINUS   &kp EQUAL
+&kp LEFT_SHIFT  &kp SEMICOLON     &kp Q       &kp J               &kp K          &kp X           &kp B       &kp M         &kp W                &kp V       &kp Z       &u_mt RIGHT_SHIFT RIGHT_SHIFT
                                               &kp BACKSPACE       &u_lt 5 SPACE  &mo 1           &kp LCTRL   &kp LEFT_WIN
                                                                   &mo 2          &kp LEFT_ALT    &kp ENTER
             >;
@@ -248,6 +248,17 @@
 
         SCROLL {
             display-name = "SCROLL";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
+                                &trans  &trans    &trans
+            >;
+        };
+
+        layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
